@@ -809,6 +809,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E35B61E93F87C8A773D8C18A /* Pods-psychotronics.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -825,7 +826,6 @@
 				PRODUCT_NAME = NeuroHack;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = "armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -834,6 +834,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7ED4D2951A3D5CE61585399E /* Pods-psychotronics.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -848,7 +849,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.hyper.psychotech;
 				PRODUCT_NAME = NeuroHack;
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = "armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
