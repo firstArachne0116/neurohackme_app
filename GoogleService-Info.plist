@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>707370587885-dvjboo6dd1t6r0b3v7j4mdat38tet7v6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.707370587885-dvjboo6dd1t6r0b3v7j4mdat38tet7v6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>707370587885-7khmkee7g7dq8ps0k0hqcjh5jmm0hfch.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD2M0dlJJ3vfDND30mhlX9kVBVzJNwprQs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>707370587885</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.hyper.psychotech</string>
+	<key>PROJECT_ID</key>
+	<string>neurohack-14df9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>neurohack-14df9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:707370587885:ios:2a3471ccb19dca2f39dee4</string>
+	<key>DATABASE_URL</key>
+	<string>https://neurohack-14df9.firebaseio.com</string>
+</dict>
+</plist>
