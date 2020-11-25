@@ -38,6 +38,7 @@
 		B014C3630B9FB58CA9D1F72B /* libPods-psychotronics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552166086719D223FE28455E /* libPods-psychotronics.a */; };
 		B1CFBD742CED4684BFC59A42 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75888D83148341288C8947CD /* Ionicons.ttf */; };
 		C2709BE81CF3485180206789 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37070DA8553244B6A4B956D8 /* Foundation.ttf */; };
+		E8739A60256F00EC008A306B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8739A5F256F00EC008A306B /* File.swift */; };
 		EA48BA0298E84F8A8EEA212A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3A8167807403A929F9319 /* FontAwesome.ttf */; };
 		F30BF5CF8FDF494D8CA5CF2E /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EEF19CEF75649029C373AFB /* FontAwesome5_Solid.ttf */; };
 		F331B7FC80741BC2F0F16F11 /* libPods-psychotronics-psychotronicsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5B68AFE737A06EB9B3CAA /* libPods-psychotronics-psychotronicsTests.a */; };
@@ -104,6 +105,8 @@
 		D1A99EA72856487CB49D57FC /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		DC15F96F852043EA8E4C284C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		E35B61E93F87C8A773D8C18A /* Pods-psychotronics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psychotronics.debug.xcconfig"; path = "Target Support Files/Pods-psychotronics/Pods-psychotronics.debug.xcconfig"; sourceTree = "<group>"; };
+		E8739A5E256F00EC008A306B /* psychotronics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "psychotronics-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8739A5F256F00EC008A306B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		EB852FAF47FFE9014B613835 /* libPods-psychotronics-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-psychotronics-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -243,6 +246,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				E8739A5F256F00EC008A306B /* File.swift */,
 				04016E1125668E7800375B66 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* psychotronics */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -251,6 +255,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				3FB9E2BAFE3FF6958B3D7A78 /* Pods */,
 				5F50919FAEC94741A10926E8 /* Resources */,
+				E8739A5E256F00EC008A306B /* psychotronics-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -367,7 +372,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1160;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -725,6 +730,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				E8739A60256F00EC008A306B /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -766,6 +772,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5ACAFFFFB85975ABFFF7EA10 /* Pods-psychotronics-psychotronicsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -789,6 +796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 357CFA6FA387B364C746038C /* Pods-psychotronics-psychotronicsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = psychotronicsTests/Info.plist;
@@ -824,6 +832,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.hyper.psychotech;
 				PRODUCT_NAME = NeuroHack;
+				SWIFT_OBJC_BRIDGING_HEADER = "psychotronics-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -848,6 +857,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.hyper.psychotech;
 				PRODUCT_NAME = NeuroHack;
+				SWIFT_OBJC_BRIDGING_HEADER = "psychotronics-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
