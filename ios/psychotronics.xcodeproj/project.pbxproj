@@ -825,6 +825,7 @@
 				PRODUCT_NAME = NeuroHack;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -847,6 +848,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.hyper.psychotech;
 				PRODUCT_NAME = NeuroHack;
 				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
