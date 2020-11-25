@@ -1,0 +1,4755 @@
+[
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "accelerated1",
+        "author": "Tkt",
+        "title": "Accelerated healing",
+        "subtitle_1": "Achieve a faster healing response.",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "image": "path/to/cdn/image.jpg",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 14,
+                "leftEarFreq": 220,
+                "rightEarFreq": 234
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 10,
+                "leftEarFreq": 220,
+                "rightEarFreq": 230
+            },
+            "subject": {
+                "subjectGuid": "accelerated1",
+                "frequency": 8,
+                "leftEarFreq": 220,
+                "rightEarFreq": 228
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 254
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "RANDOM",
+            "name": "RANDOM",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "accelerated2",
+        "author": "tkt",
+        "title": "Accelerated healing II",
+        "subtitle_1": "Achieve a faster healing response II",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "accelerated2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "alcohol",
+        "author": "tkt",
+        "title": "Alcohol avoidance",
+        "subtitle_1": "Avoid abusing alcohol",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "alcohol",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "alcohol1",
+        "author": "tkt",
+        "title": "Alcohol avoidance I",
+        "subtitle_1": "Avoid abusing alcohol I",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "alcohol1",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "alcohol2",
+        "author": "tkt",
+        "title": "Alcohol avoidance II",
+        "subtitle_1": "Avoid abusing alcohol II",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "alcohol2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "alcohol3",
+        "author": "tkt",
+        "title": "Alcohol avoidance III",
+        "subtitle_1": "Avoid abusing alcohol III",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "alcohol3",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "alcohol4",
+        "author": "tkt",
+        "title": "Alcohol avoidance IV",
+        "subtitle_1": "Avoid abusing alcohol IV",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "alcohol4",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "angertemper",
+        "author": "tkt",
+        "title": "Anger and temper management",
+        "subtitle_1": "Control your emotions.",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "angertemper",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "angina",
+        "author": "tkt",
+        "title": "Angina, chest pain",
+        "subtitle_1": "Relief to unexplained chest pain",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "angina",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "asthma",
+        "author": "tkt",
+        "title": "Asthma, feel better",
+        "subtitle_1": "Relief paroxysmal attacks of wheezing or tight chest",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "asthma",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "bedwetting",
+        "author": "tkt",
+        "title": "Bedwetting, put and end to it",
+        "subtitle_1": "No more bedwetting",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "bedwetting",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "blushing",
+        "author": "tkt",
+        "title": "Blushing, control the skin blood flow",
+        "subtitle_1": "Dermatology is under your control",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "blushing",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "bodytemp",
+        "author": "tkt",
+        "title": "Body temperature control",
+        "subtitle_1": "Learn to control your body temperature",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "bodytemp",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "bruxism",
+        "author": "tkt",
+        "title": "Bruxism, grinding teeth",
+        "subtitle_1": "stop grinding your teeth",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "bruxism",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "childbirthdis",
+        "author": "tkt",
+        "title": "Childbirth, dissasociation",
+        "subtitle_1": "manage pain during childbirth",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "subject22",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "childbirthdis",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "childbirthtime",
+        "author": "tkt",
+        "title": "Childbirth, time distortion",
+        "subtitle_1": "Manage time and pain during childbirth",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "childbirthtime",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "Circulation",
+        "author": "tkt",
+        "title": "Circulation control and blood flow",
+        "subtitle_1": "Regulate the flow of blood on your body",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "Circulation",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "concentration",
+        "author": "tkt",
+        "title": "Concentration",
+        "subtitle_1": "Improve the power of your mind",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "concentration",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "constipation",
+        "author": "tkt",
+        "title": "Constipation, irritable bowel syndrome",
+        "subtitle_1": "Improve gastrointestinal symptoms",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "constipation",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "Creativity",
+        "author": "tkt",
+        "title": "Creativity, connect and develop the creative",
+        "subtitle_1": "Find new inspiration and associations",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "Creativity",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "Creativity2",
+        "author": "tkt",
+        "title": "Creativity, connect and develop the creative II",
+        "subtitle_1": "Find new inspiration and associations",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "Creativity2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "Creativity3",
+        "author": "tkt",
+        "title": "Creativity, connect and develop the creative III",
+        "subtitle_1": "Find new inspiration and associations",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "Creativity3",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "depresion1",
+        "author": "tkt",
+        "title": "Depression",
+        "subtitle_1": "Learn to look at the positive side",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "depresion1",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "depresion2",
+        "author": "tkt",
+        "title": "Depression II",
+        "subtitle_1": "Learn to find peace",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "depresion2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "depresion3",
+        "author": "tkt",
+        "title": "Depression III",
+        "subtitle_1": "Leave yesterday behind",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "depresion3",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "disease",
+        "author": "tkt",
+        "title": "Disease",
+        "subtitle_1": "Use your mind to improve your health",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "disease",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "DrugAddic",
+        "author": "tkt",
+        "title": "Drug addiction management I",
+        "subtitle_1": "relieving physical, psychological and spiritual symptoms",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "DrugAddic",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "DrugAddic3",
+        "author": "tkt",
+        "title": "Drug addiction management III",
+        "subtitle_1": "relieving physical, psychological and spiritual symptoms",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "DrugAddic3",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "Drugs",
+        "author": "tkt",
+        "title": "Drugs addiction",
+        "subtitle_1": "manage drug addiction",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "Drugs",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "amnesia",
+        "author": "tkt",
+        "title": "Easing someone from your mind",
+        "subtitle_1": "Forget people and episodes by choice",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "amnesia",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis",
+            "Energyse"
+        ],
+        "programGuid": "ENERGY",
+        "author": "tkt",
+        "title": "Energy, revitalize and refresh",
+        "subtitle_1": "Reload your energy source",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "ENERGY",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "ESP",
+        "author": "tkt",
+        "title": "ESP, Extra Sensorial Perception",
+        "subtitle_1": "See beyond the senses",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "ESP",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "exam1",
+        "author": "tkt",
+        "title": "Exam anxiety",
+        "subtitle_1": "Be relaxed but ready for success on your exam",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "exam1",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "exams",
+        "author": "tkt",
+        "title": "Performance at exams",
+        "subtitle_1": "Get the most of you at exams",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "exams",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "angina2",
+        "author": "tkt",
+        "title": "Angina, chest pain",
+        "subtitle_1": "Relief to unexplained chest pain",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "angina2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "goalaccomplishment",
+        "author": "tkt",
+        "title": "Goal accomplishment",
+        "subtitle_1": "Learn how to reach your goals",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "goalaccomplishment",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "healing",
+        "author": "tkt",
+        "title": "Healing",
+        "subtitle_1": "Know how to heal your wounds",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "healing",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "healingtemple",
+        "author": "tkt",
+        "title": "Healing temple",
+        "subtitle_1": "Know where to go to heal your wounds",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "healingtemple",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "highpressure",
+        "author": "tkt",
+        "title": "High blood pressure",
+        "subtitle_1": "Know how to deal with high pressure",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "highpressure",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "hypnotherapyst",
+        "author": "tkt",
+        "title": "Hypnotherapist",
+        "subtitle_1": "Get the most of hypnotherapy",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "hypnotherapyst",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "Iwould",
+        "author": "tkt",
+        "title": "I would if I could",
+        "subtitle_1": "Be able to achieve your goals",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "Iwould",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "hearing",
+        "author": "tkt",
+        "title": "Tinnitus relief",
+        "subtitle_1": "make the sounds seem less threatening and easier to live with",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "hearing",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "advisor",
+        "author": "tkt",
+        "title": "Inner advisor",
+        "subtitle_1": "Hear to your inner advisor",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "advisor",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "insomnia",
+        "author": "tkt",
+        "title": "Insomnia",
+        "subtitle_1": "Deal with sleeping disorders",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "insomnia",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "jealousy",
+        "author": "tkt",
+        "title": "Jealousy",
+        "subtitle_1": "Stop being jealous",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "jealousy",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "library",
+        "author": "tkt",
+        "title": "Library scene",
+        "subtitle_1": "Library scene model test",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "library",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "memory",
+        "author": "tkt",
+        "title": "Memory : recall at will",
+        "subtitle_1": "Get the most of your memory",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "memory",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "migraine",
+        "author": "tkt",
+        "title": "Migraine headaches",
+        "subtitle_1": "Cure to constant headaches",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "migraine",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "nails",
+        "author": "tkt",
+        "title": "Nail biting",
+        "subtitle_1": "Avoid continuous biting your nails",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "nails",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "paincontrol",
+        "author": "tkt",
+        "title": "Pain control",
+        "subtitle_1": "Know how control pain",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "paincontrol",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "painoranxiety",
+        "author": "tkt",
+        "title": "Manage the pain and anxiety",
+        "subtitle_1": "Relief to unexplained chest pain",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "painoranxiety",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "pre-operative",
+        "title": "Pre-operative",
+        "subtitle_1": "Pre operative",
+        "subtitle_2": "Ready for a succesfull hospital operation",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "pre-operative",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "3step",
+        "author": "tkt",
+        "title": "Problem - solving 3 step",
+        "subtitle_1": "Problem with a solution in three steps",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "3step",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "procastinating1",
+        "author": "tkt",
+        "title": "Procrastinating I",
+        "subtitle_1": "Be more executive in your daily life",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "procastinating1",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "procastination2",
+        "author": "tkt",
+        "title": "Procrastination II",
+        "subtitle_1": "Be more executive in your daily life",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "procastination2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "prosperity1",
+        "author": "tkt",
+        "title": "Prosperity I",
+        "subtitle_1": "Apply science to your business",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "prosperity1",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "prosperity2",
+        "author": "tkt",
+        "title": "Prosperity II",
+        "subtitle_1": "Apply science to your business",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "prosperity2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "shield",
+        "author": "tkt",
+        "title": "Protective shield",
+        "subtitle_1": "Method to generate a protective shield",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "shield",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "speaking",
+        "author": "tkt",
+        "title": "Public speaking",
+        "subtitle_1": "Be a better speaker",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "speaking",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "garden",
+        "author": "tkt",
+        "title": "Rainbow garden",
+        "subtitle_1": "Rainbow garden exercise",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "garden",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "rapetrauma",
+        "author": "tkt",
+        "title": "Rape trauma",
+        "subtitle_1": "Deal with trauma for victims of raping",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "rapetrauma",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "reading",
+        "author": "tkt",
+        "title": "Reading faster",
+        "subtitle_1": "Improve your speed at reading",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "reading",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "studyhabits",
+        "author": "tkt",
+        "title": "Secret of study habits",
+        "subtitle_1": "Get better study habits",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "studyhabits",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "selfconfidence",
+        "author": "tkt",
+        "title": "Self confidence I",
+        "subtitle_1": "Be fully confident in yourself",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "selfconfidence",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "selfconfidence2",
+        "author": "tkt",
+        "title": "Self confidence II",
+        "subtitle_1": "Be fully confident in yourself",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "selfconfidence2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "selfconfidencefear",
+        "author": "tkt",
+        "title": "Self confidence/fear",
+        "subtitle_1": "Be confident in yourself and avoid fear",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "selfconfidencefear",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "male",
+        "author": "tkt",
+        "title": "Sexual male",
+        "subtitle_1": "Get the most of your sexual energy",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "male",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "smoking",
+        "author": "tkt",
+        "title": "Smoking addendum",
+        "subtitle_1": "Quit the unhealthy habit of smoking",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "smoking",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "stopsmoking1",
+        "author": "tkt",
+        "title": "Stop smoking session I",
+        "subtitle_1": "Quit the unhealthy habit of smoking",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "stopsmoking1",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "stopsmoking2",
+        "author": "tkt",
+        "title": "Stop smoking session II",
+        "subtitle_1": "Quit the unhealthy habit of smoking",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "stopsmoking2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "stopsmoking3",
+        "author": "tkt",
+        "title": "Stop smoking session III",
+        "subtitle_1": "Quit the unhealthy habit of smoking",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "stopsmoking3",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "stopsmoking4",
+        "author": "tkt",
+        "title": "Stop smoking session IV",
+        "subtitle_1": "Quit the unhealthy habit of smoking",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "stopsmoking4",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "stopsmoking5",
+        "author": "tkt",
+        "title": "Stop smoking session V",
+        "subtitle_1": "Quit the unhealthy habit of smoking",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "stopsmoking5",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "studyhabits2",
+        "author": "tkt",
+        "title": "Study habits",
+        "subtitle_1": "Improve your study habits",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "studyhabits2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "weightreduction",
+        "author": "tkt",
+        "title": "Weight reduction",
+        "subtitle_1": "Get an average weight",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "weightreduction",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "weightreduction1",
+        "author": "tkt",
+        "title": "Weight reduction session I",
+        "subtitle_1": "Get an average weight",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "weightreduction1",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "weightreduction2",
+        "author": "tkt",
+        "title": "Weight reduction session II",
+        "subtitle_1": "Get an average weight",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "weightreduction2",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "selfHypnosis"
+        ],
+        "programGuid": "weightreduction3",
+        "author": "tkt",
+        "title": "Weight reduction session III",
+        "subtitle_1": "Get an average weight",
+        "subtitle_2": "Theta waves",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": true,
+            "induction": {
+                "inductionScriptGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "deepening": {
+                "deepeningGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "subject": {
+                "subjectGuid": "weightreduction3",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            "ending": {
+                "endingGuid": "RANDOM",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Energyse"
+        ],
+        "programGuid": "SMR",
+        "author": "tkt",
+        "title": "SMR (Sensory Motor Rythm)",
+        "subtitle_1": "Used to achieve relaxed attention",
+        "subtitle_2": "14 Hz",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 254,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Energyse"
+        ],
+        "programGuid": "BETA1",
+        "author": "tkt",
+        "title": "Beta 1 - Sharpen the mind | 20 min | 19Hz",
+        "subtitle_1": "A great way to get going in the morning without caffeine. This session helps reduce ADD and SAD symptoms. May cause anxiety.",
+        "subtitle_2": "14 Hz",
+        "duration": "24",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 254,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Energyse"
+        ],
+        "programGuid": "BETA2",
+        "author": "tkt",
+        "title": "Beta 2 - Sharpen the mind | 20 min | 23H",
+        "subtitle_1": "Like Beta 1, but with a gigher target frequency range. May give a more energizing jor intense feeling.",
+        "subtitle_2": "23 Hz",
+        "duration": "20",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 23,
+                "leftEarFreq": 240,
+                "rightEarFreq": 217,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Energyse"
+        ],
+        "programGuid": "mentalFlex",
+        "author": "tkt",
+        "title": "Mental flexibility | 22 min | Variable",
+        "subtitle_1": "To 'loosen up' a stuck mind. Can also be used for fibromyalgia.",
+        "subtitle_2": "23 Hz",
+        "duration": "20",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 23,
+                "leftEarFreq": 240,
+                "rightEarFreq": 217,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Meditate"
+        ],
+        "programGuid": "wise",
+        "author": "tkt",
+        "title": "'Wise guy' Alpha | 30 min | 10.6Hz",
+        "subtitle_1": "It has been shown that people with fast running alpha waves have higher than average IQs.",
+        "subtitle_2": "10.6 Hz",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 10.6,
+                "leftEarFreq": 240,
+                "rightEarFreq": 229.4,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Meditate"
+        ],
+        "programGuid": "coffee",
+        "author": "tkt",
+        "title": "Coffee break Alpha | 15 min | 10Hz",
+        "subtitle_1": "UGreat for a little rest during your coffee or lunch break.",
+        "subtitle_2": "10 Hz",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 10,
+                "leftEarFreq": 240,
+                "rightEarFreq": 230,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Meditate"
+        ],
+        "programGuid": "alphaRelaxer",
+        "author": "tkt",
+        "title": "Alpha Relaxer | 30 min | 12Hz",
+        "subtitle_1": "Healthy alpha is 10 Hz. Most disorders have alpha slowing. This session reestablishes the natural alpha rhythm. Good for beginners.",
+        "subtitle_2": "12 Hz",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 12,
+                "leftEarFreq": 240,
+                "rightEarFreq": 228,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Meditate"
+        ],
+        "programGuid": "schumann",
+        "author": "tkt",
+        "title": "Schumann Resonance | 22 min | 7.8Hz",
+        "subtitle_1": "For a quick, through afternoon meditation. Calms 'hyper/chattery' minds. For those on the go.",
+        "subtitle_2": "7.8 Hz",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 7.8,
+                "leftEarFreq": 240,
+                "rightEarFreq": 228,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Meditate"
+        ],
+        "programGuid": "theta",
+        "author": "tkt",
+        "title": "Theta | 36 min | 5.5Hz",
+        "subtitle_1": "Use for creative visualization. May also be used for sleep.",
+        "subtitle_2": "5.5Hz",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 5.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 234.5,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Booster"
+        ],
+        "programGuid": "reading",
+        "author": "tkt",
+        "title": "SMR for Reading | 20 min | 13Hz",
+        "subtitle_1": "Improve attention and alertness while reading.",
+        "subtitle_2": "13Hz Sensory Motor Rythm",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 13,
+                "leftEarFreq": 240,
+                "rightEarFreq": 233,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Booster"
+        ],
+        "programGuid": "beta",
+        "author": "tkt",
+        "title": "SMR/Beta | 24 min | 13.5Hz",
+        "subtitle": "A gentle and entraining session that helps to focus mental functioning and memory.",
+        "subtitle_2": "3.5Hz Sensory Motor Rythm",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 13.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 233.5,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Booster"
+        ],
+        "programGuid": "brainBooster",
+        "author": "tkt",
+        "title": "Brain Booster | 30 min | 14Hz",
+        "subtitle": "Use to impove mental functioning and memory, Based on Budzynski's study. Similar to ADD and learning, but with gentler transitions. Useful for seniors and those with ADD.",
+        "subtitle_2": "14Hz ",
+        "duration": "30",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 226,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Booster"
+        ],
+        "programGuid": "addLearning",
+        "author": "tkt",
+        "title": "ADD and Learning | 26 min | 19Hz",
+        "subtitle_1": "This session has rapid transitions for mental stimulation to help keep the user 'engaged' in the session. Used in the ADD study published in the journal of Neurotherapy.",
+        "subtitle_2": "19Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 19,
+                "leftEarFreq": 240,
+                "rightEarFreq": 221,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "Booster"
+        ],
+        "programGuid": "skill",
+        "author": "tkt",
+        "title": "Skill & Sports Development | 24 min | 18Hz",
+        "subtitle": "Use this session to develop any skill or improve performance. Visualize feeling your best during the first half(alpha). Then visualize your perfect performance during the second half(beta) of the session. ",
+        "subtitle_2": "18Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 18,
+                "leftEarFreq": 240,
+                "rightEarFreq": 222,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "sleep"
+        ],
+        "programGuid": "schumannSleep",
+        "author": "tkt",
+        "title": "Schumann for Sleep | 40 min | 7.8Hz",
+        "subtitle_1": "For effective deep meditation and to improve the onset of sleep. Calms 'hyper/chattery' minds. Ideal for those with insomnia who have a busy mind and tense body.",
+        "subtitle_2": "18Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 7.8,
+                "leftEarFreq": 220,
+                "rightEarFreq": 212.2,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "sleep"
+        ],
+        "programGuid": "meditateSleep",
+        "author": "tkt",
+        "title": "Meditate to Sleep | 45 min | 4Hz",
+        "subtitle_1": "A gentle and entraining session that helps to focus mental functioning and memory.",
+        "subtitle_2": "4Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 4,
+                "leftEarFreq": 240,
+                "rightEarFreq": 236,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "sleep"
+        ],
+        "programGuid": "alphaSleep",
+        "author": "tkt",
+        "title": "Alpha/Theta for Sleep | 36 min | 10Hz",
+        "subtitle_1": "This session can really help to break up distressing thoughts that are interfering with sleep.",
+        "subtitle_2": "10HZ ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 10,
+                "leftEarFreq": 240,
+                "rightEarFreq": 230,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "sleep"
+        ],
+        "programGuid": "smrSleep",
+        "author": "tkt",
+        "title": "SMR for Sleep | 40 min | 14Hz",
+        "subtitle_1": "This session has rapid transitions for mental stimulation to help keep the user 'engaged' in the session. Used in the ADD study published in the journal of Neurotherapy.",
+        "subtitle_2": "14Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 226,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "sleep"
+        ],
+        "programGuid": "delta",
+        "author": "tkt",
+        "title": "Delta | 45 min | 3.5Hz",
+        "subtitle1": "To aid with falling asleep. Best for those with fibromyalgia.",
+        "subtitle_2": "3.5Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 3.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 236.5,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "feelBetter"
+        ],
+        "programGuid": "moodBooster",
+        "author": "tkt",
+        "title": "Mood Booster 1 | 30 min | 8Hz",
+        "subtitle_1": "Settles down negative emotions from the right brain while stimulating the left brain to rebalance alpha asymmetry.",
+        "subtitle_2": "8Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 8,
+                "leftEarFreq": 220,
+                "rightEarFreq": 212,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "feelBetter"
+        ],
+        "programGuid": "moodBooster2",
+        "author": "tkt",
+        "title": "Mood Booster 2 | 42 min | 8Hz",
+        "subtitle_1": "This session has an alpha front end to reduce anxiety and enhance relaxation.",
+        "subtitle_2": "8Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 8,
+                "leftEarFreq": 340,
+                "rightEarFreq": 312,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "feelBetter"
+        ],
+        "programGuid": "subDelta",
+        "author": "tkt",
+        "title": "Sub-Delta | 24 min | 1Hz",
+        "subtitle": "Mildly dissociating. Calms the hypothalamus. Beneficial for some with fibromyalgia and hypertension.",
+        "subtitle_2": "1Hz ",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 1,
+                "leftEarFreq": 240,
+                "rightEarFreq": 241,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "feelBetter"
+        ],
+        "programGuid": "extendedAlpha",
+        "author": "tkt",
+        "title": "Extended Deep Alpha Relaxer | 80 min | 8.4Hz",
+        "subtitle_1": "Stay relaxed for your dental, massage, physiotherapy, chiropractic and other appointments.",
+        "subtitle_2": " 8.4Hz",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 8.4,
+                "leftEarFreq": 240,
+                "rightEarFreq": 248.4,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    },
+    {
+        "catGuid": [
+            "feelBetter"
+        ],
+        "programGuid": "delta",
+        "author": "tkt",
+        "title": "Paradise | 36 min | 6.5Hz",
+        "subtitle": "A gentle slide down to Theta. Extroverts with low anxiety produce high levels of this frequency.",
+        "subtitle_2": "6.5Hz",
+        "duration": "26",
+        "programNotes": "notes",
+        "programStructure": {
+            "hasScript": false,
+            "induction": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 232.2,
+                "time_minutes": 2
+            },
+            "subject": {
+                "frequency": 6.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 246.5,
+                "time_minutes": 2
+            },
+            "ending": {
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220,
+                "time_minutes": 2
+            }
+        },
+        "visual": {
+            "type": "flicker",
+            "name": "Screen flicker"
+        },
+        "music": {
+            "artist": "Bethoven",
+            "name": "9th Symphony",
+            "location": "/pathCDN"
+        }
+    }
+]

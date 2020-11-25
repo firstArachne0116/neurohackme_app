@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      display: table;
+      margin: 0 auto;
+      border: 1px solid black;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+    }
+
+    /* Style the close button */
+    .topright {
+      float: right;
+      cursor: pointer;
+      font-size: 28px;
+    }
+
+    .topright:hover {
+      color: red;
+    }
+
+    .btn-group button {
+      background-color: #153e91;
+      /* Green background */
+      border: 1px solid white;
+      /* Green border */
+      color: white;
+      /* White text */
+      padding: 10px 24px;
+      /* Some padding */
+      cursor: pointer;
+      /* Pointer/hand icon */
+      width: 100%;
+      /* Set a width if needed */
+      display: block;
+      /* Make the buttons appear below each other */
+    }
+
+    .btn-group button:not(:last-child) {
+      border-bottom: none;
+      /* Prevent double borders */
+    }
+
+    /* Add a background color on hover */
+    .btn-group button:hover {
+      background-color: #A9A9A9;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+
+    /* The slider */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked+.slider {
+      background-color: #2196F3;
+    }
+
+    input:focus+.slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+
+    .blinkerView {
+      display: flex;
+      align-items: center;
+      /* align vertical */
+    }
+
+    .switchText {
+      padding-right: 15px;
+    }
+
+    .stopExperimentStyle {
+      padding-right: 40px;
+    }
+
+    .experimentStopScreen {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+    }
+
+    .canvas {
+      width: 100%;
+      height: 700;
+      background-color: #2196F3;
+    }
+
+    .sliderStyle {
+      padding-left: 160px;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Sessions')" id="defaultOpen">Sessions</button>
+    <button class="tablinks" onclick="openCity(event, 'Experiment')">Experiment</button>
+  </div>
+
+  
+  <div id="Sessions" class="tabcontent">
+    <h3>Sessions</h3>
+    <p>Binaural beats and light entrainment.</p>
+    <div class="btn-group">
+      <button onclick="openSelection('Hypnosis')">Self Hypnosis</button>
+      <button onclick="openSelection('Energyse')">Energyse</button>
+      <button onclick="openSelection('Meditate')">Meditate</button>
+      <button onclick="openSelection('Booster')">Brain Booster</button>
+      <button onclick="openSelection('Sleep')">Sleep</button>
+      <button onclick="openSelection('Better')">Feel Better</button>
+
+    </div>
+  </div>
+
+  
+  <div id="SessionDetail" class="tabcontent">
+    <h3>Session</h3>
+    <p>Session tkt.</p>
+    <div class="blinkerView">
+      <span class="switchText">Light blink on screen</span>
+
+      
+      <label class="switch">
+        <input type="checkbox" onclick="handleSwitchLightBlink(this);">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <br>
+
+    <div class="blinkerView">
+      <span class="switchText" style="padding-right: 30px;">Background music</span>
+
+      
+      <label class="switch">
+        <input type="checkbox" onclick="handleSwitchMusic(this);">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <br> <br>
+
+
+
+    <div class="btn-group">
+
+      <button onclick="startExperiment()">Start Session</button>
+
+    </div>
+
+  </div>
+
+  
+  <div id="Experiment" class="tabcontent">
+    <h3>Experiment</h3>
+    <p>Create your own mind Hacks.</p>
+
+    <div class="btn-group">
+
+      <button onclick="startExperiment()">Start Experiment</button>
+
+
+    </div>
+
+    <div id="mainContent">
+      <hr>
+      <p class="tagline"><strong>Binaural Beat Generator</strong></p>
+
+
+      <div class="duration">
+
+        <div>
+          <span style="padding-right: 95px">Duration</span>
+
+          <input type="range" min="1" max="90" value="10" id="slide">
+          <div id="sliderAmount" class="sliderStyle">10 minutes
+          </div>
+          <br> <br>
+
+        </div>
+
+
+      </div>
+
+      <div class="generator-ad-wrapper">
+        <div id="generator" class="generator">
+          <form>
+            <div class="binaural-freq-wrapper">
+              <span style="padding-right: 20px">Left Ear Frequency</span>
+              <input type="number" id="freq2" name="freq2" value="200" class="input--frequency">
+              <span id="freq2label"> (Hz)</span>
+              <br> <br>
+            </div>
+            <div class="binaural-freq-wrapper">
+              <span style="padding-right: 10px">Right Ear Frequency</span>
+              <input type="number" id="freq" name="freq" value="207" class="input--frequency">
+              <span>(Hz)</span>
+              
+              <br> <br>
+            </div>
+            <hr>
+            
+
+            <div class="blinkerView">
+              <span class="switchText">Light blink on screen</span>
+
+              
+              <label class="switch">
+                <input type="checkbox" onclick="handleSwitchLightBlink(this);">
+                <span class="slider round"></span>
+              </label>
+            </div>
+
+            <div class="binaural-freq-wrapper">
+              <span style="padding-right: 40px">Screen <br> Flash Frequency</span>
+              <input type="number" id="freqBlink" name="freqBlink" value="40" class="input--frequency">
+              <span id="lightFreqlabel"> (Hz)</span>
+              <br> <br>
+            </div>
+
+            <hr>
+
+            <div class="blinkerView">
+              <span class="switchText" style="padding-right: 30px;">Background music</span>
+
+              
+              <label class="switch">
+                <input type="checkbox" onclick="handleSwitchMusic(this);">
+                <span class="slider round"></span>
+              </label>
+            </div>
+
+            <script>var contextClass = (window.AudioContext ||
+    window.webkitAudioContext ||
+    window.mozAudioContext ||
+    window.oAudioContext ||
+    window.msAudioContext);
+
+if (contextClass) {
+    // Web Audio API is available.
+    var context = new contextClass();
+}
+
+var oscOn = function (freq1, freq2) {
+
+    merger = context.createChannelMerger(2);
+
+    oscillator1 = context.createOscillator();
+    oscillator1.type = 0;
+    oscillator1.frequency.value = freq1;
+    gainNode = context.createGain ? context.createGain() : context.createGainNode();
+    oscillator1.connect(gainNode, 0, 0);
+    // gainNode.connect(context.destination,0,0);
+    gainNode.gain.value = .1;
+    oscillator1.start ? oscillator1.start(0) : oscillator1.noteOn(0)
+
+    gainNode.connect(merger, 0, 1);
+
+    oscillator2 = context.createOscillator();
+    oscillator2.type = 0;
+    oscillator2.frequency.value = freq2;
+    gainNode = context.createGain ? context.createGain() : context.createGainNode();
+    oscillator2.connect(gainNode);
+    // gainNode.connect(context.destination,0,1);
+    gainNode.connect(merger, 0, 0);
+
+
+    gainNode.gain.value = .1;
+    oscillator2.start ? oscillator2.start(0) : oscillator2.noteOn(0)
+
+    merger.connect(context.destination);
+
+
+};
+
+function start() {
+    if (typeof oscillator1 != 'undefined') oscillator1.disconnect();
+    if (typeof oscillator2 != 'undefined') oscillator2.disconnect();
+
+    console.log("start binaural freq:"+document.getElementById("freq").value);
+    console.log("start binaural freq2:"+document.getElementById("freq2").value);
+
+    oscOn(
+        parseFloat(document.getElementById("freq").value),
+        parseFloat(document.getElementById("freq2").value)
+    );
+}
+
+
+function stop() {
+    oscillator1.disconnect();
+    oscillator2.disconnect();
+    console.log("stop binaural tone")
+
+}</script>
+            <script>var startTime;
+var interval;
+var index=0;
+var colors=['black','white'];
+var id = null;
+ 
+function animate(time){
+    id = requestAnimationFrame(animate);
+
+    if(!startTime){startTime=time;}
+    var elapsed=time-startTime;
+    if(elapsed>interval){
+        startTime=time;
+        canvas.style.backgroundColor=colors[index];
+        if(++index>colors.length){index=0;}
+    }
+}
+
+function startBlink(){
+    interval = (1000 / parseFloat(document.getElementById("freqBlink").value)) / 2
+    cancelAnimationFrame(id)
+
+    requestAnimationFrame(animate);
+}
+
+function stopBlink(){
+    cancelAnimationFrame(id)
+    canvas.style.backgroundColor='#0080ff'
+}
+</script>
+            <script>function play_single_sound() {
+    document.getElementById('audiotag1').play();
+}
+
+function pause_sound() {
+    document.getElementById('audiotag1').pause();
+}
+
+function stop_sound() {
+    document.getElementById('audiotag1').pause();
+    document.getElementById('audiotag1').currentTime = 0;
+}</script>
+            <script>var DATA =
+{
+    "SessionHypnosis": {
+        "title": "Self Hypnosis",
+        "description": "Hypnosis to reprogram your mind for peak performance",
+        "programs": [
+            {
+                "id": "hypnoInduction",
+                "title": "Quick Hypnotic induction Theta waves | 15 min | 6Hz",
+                "subtitle":"Achieve a fast dissociative state.",
+                "durationMinutes": 15,
+                "freqHz": 6,
+                "leftEarFreq": 240,
+                "rightEarFreq": 246
+            },
+            {
+                "id": "hypnoAbility",
+                "title": "Increase Hypnotic ability | 34 min | 8Hz",
+                "subtitle":"Get hypnotic states easier and more controlled",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "leftEarFreq": 320,
+                "rightEarFreq": 328
+            },
+
+
+        ]
+    },
+    "SessionEnergyse": {
+        "title": "Energyse",
+        "description": "Sessions to wake you up and stimulate you",
+        "programs": [
+            {
+                "id": "SMR",
+                "title": "SMR (Sensory Motor Rythm) | 24 min | 14Hz",
+                "subtitle":"Used to achieve relaxed attention",
+                "durationMinutes": 24,
+                "freqHz": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 254
+            },
+            {
+                "id": "BETA1",
+                "title": "Beta 1 - Sharpen the mind | 20 min | 19Hz",
+                "subtitle":"A great way to get going in the morning without caffeine. This session helps reduce ADD and SAD symptoms. May cause anxiety.",
+                "durationMinutes": 20,
+                "freqHz": 19,
+                "leftEarFreq": 240,
+                "rightEarFreq": 211
+            },
+            {
+                "id": "BETA2",
+                "title": "Beta 2 - Sharpen the mind | 20 min | 23H",
+                "subtitle":"Like Beta 1, but with a gigher target frequency range. May give a more energizing jor intense feeling.",
+                "durationMinutes": 20,
+                "freqHz": 23,
+                "leftEarFreq": 240,
+                "rightEarFreq": 217
+            },
+            {
+                "id": "mentalFlex",
+                "title": "Mental flexibility | 22 min | Variable",
+                "subtitle":"To 'loosen up' a stuck mind. Can also be used for fibromyalgia.",
+                "durationMinutes": 22,
+                "freqHz": 23,
+                "leftEarFreq": 240,
+                "rightEarFreq": 217
+            }
+        ]
+    },
+    "SessionMeditate": {
+        "title": "Meditate",
+        "description": "Sessions to relax and calm you",
+        "programs": [
+            {
+                "id": "wise",
+                "title": "'Wise guy' Alpha | 30 min | 10.6Hz",
+                "subtitle":"It has been shown that people with fast running alpha waves have higher than average IQs.",
+                "durationMinutes": 30,
+                "freqHz": 10.6,
+                "leftEarFreq": 240,
+                "rightEarFreq": 229.4
+            },
+            {
+                "id": "coffee",
+                "title": "Coffee break Alpha | 15 min | 10Hz",
+                "subtitle":"UGreat for a little rest during your coffee or lunch break.",
+                "durationMinutes": 15,
+                "freqHz": 10,
+                "leftEarFreq": 240,
+                "rightEarFreq": 230
+            },
+            {
+                "id": "alphaRelaxer",
+                "title": "Alpha Relaxer | 30 min | 12Hz",
+                "subtitle":"Healthy alpha is 10 Hz. Most disorders have alpha slowing. This session reestablishes the natural alpha rhythm. Good for beginners.",
+                "durationMinutes": 30,
+                "freqHz": 12,
+                "leftEarFreq": 240,
+                "rightEarFreq": 228
+            },
+            {
+                "id": "schumann",
+                "title": "Schumann Resonance | 22 min | 7.8Hz",
+                "subtitle":"For a quick, through afternoon meditation. Calms 'hyper/chattery' minds. For those on the go.",
+                "durationMinutes": 22,
+                "freqHz": 7.8,
+                "leftEarFreq": 240,
+                "rightEarFreq": 232.2
+            },
+            {
+                "id": "theta",
+                "title": "Theta | 36 min | 5.5Hz",
+                "subtitle":"Use for creative visualization. May also be used for sleep.",
+                "durationMinutes": 36,
+                "freqHz": 5.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 234.5
+            },
+
+        ]
+    },
+    "SessionBooster": {
+        "title": "Brain Booster",
+        "description": "Sessions to help you focus and concentrate",
+        "programs": [
+            {
+                "id": "reading",
+                "title": "SMR for Reading | 20 min | 13Hz",
+                "subtitle":"Improve attention and alertness while reading.",
+                "durationMinutes": 20,
+                "freqHz": 13,
+                "leftEarFreq": 220,
+                "rightEarFreq": 233
+            },
+            {
+                "id": "beta",
+                "title": "SMR/Beta | 24 min | 13.5Hz",
+                "subtitle":"A gentle and entraining session that helps to focus mental functioning and memory.",
+                "durationMinutes": 15,
+                "freqHz": 10,
+                "leftEarFreq": 240,
+                "rightEarFreq": 230
+            },
+            {
+                "id": "brainBooster",
+                "title": "Brain Booster | 30 min | 14Hz",
+                "subtitle":"Use to impove mental functioning and memory, Based on Budzynski's study. Similar to ADD and learning, but with gentler transitions. Useful for seniors and those with ADD.",
+                "durationMinutes": 30,
+                "freqHz": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 226
+            },
+            {
+                "id": "addLearning",
+                "title": "ADD and Learning | 26 min | 19Hz",
+                "subtitle":"This session has rapid transitions for mental stimulation to help keep the user 'engaged' in the session. Used in the ADD study published in the journal of Neurotherapy.",
+                "durationMinutes": 26,
+                "freqHz": 19,
+                "leftEarFreq": 240,
+                "rightEarFreq": 221
+            },
+            {
+                "id": "skill",
+                "title": "Skill & Sports Development | 24 min | 18Hz",
+                "subtitle":"Use this session to develop any skill or improve performance. Visualize feeling your best during the first half(alpha). Then visualize your perfect performance during the second half(beta) of the session. ",
+                "durationMinutes": 24,
+                "freqHz": 18,
+                "leftEarFreq": 240,
+                "rightEarFreq": 222
+            },
+
+        ]
+    },
+    "SessionSleep": {
+        "title": "Sleep",
+        "description": "Sessions to help you relax and fall asleep",
+        "programs": [
+            {
+                "id": "schumannSleep",
+                "title": "Schumann for Sleep | 40 min | 7.8Hz",
+                "subtitle":"For effective deep meditation and to improve the onset of sleep. Calms 'hyper/chattery' minds. Ideal for those with insomnia who have a busy mind and tense body.",
+                "durationMinutes": 40,
+                "freqHz": 7.8,
+                "leftEarFreq": 220,
+                "rightEarFreq": 212.2
+            },
+            {
+                "id": "meditateSleep",
+                "title": "Meditate to Sleep | 45 min | 4Hz",
+                "subtitle":"A gentle and entraining session that helps to focus mental functioning and memory.",
+                "durationMinutes": 45,
+                "freqHz": 4,
+                "leftEarFreq": 240,
+                "rightEarFreq": 236
+            },
+            {
+                "id": "alphaSleep",
+                "title": "Alpha/Theta for Sleep | 36 min | 10-6Hz",
+                "subtitle":"This session can really help to break up distressing thoughts that are interfering with sleep.",
+                "durationMinutes": 36,
+                "freqHz": 8,
+                "leftEarFreq": 240,
+                "rightEarFreq": 232
+            },
+            {
+                "id": "smrSleep",
+                "title": "SMR for Sleep | 40 min | 14Hz",
+                "subtitle":"This session has rapid transitions for mental stimulation to help keep the user 'engaged' in the session. Used in the ADD study published in the journal of Neurotherapy.",
+                "durationMinutes": 40,
+                "freqHz": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 226
+            },
+            {
+                "id": "delta",
+                "title": ">Delta | 45 min | 3.5Hz",
+                "subtitle":"To aid with falling asleep. Best for those with fibromyalgia.",
+                "durationMinutes": 45,
+                "freqHz": 3.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 236.5
+            },
+
+        ]
+    },
+    "SessionBetter": {
+        "title": "Feel Better",
+        "description": "Sessions to help your mood and reduce stress",
+        "programs": [
+            {
+                "id": "moodBooster",
+                "title": "Mood Booster 1 | 30 min | 8Hz",
+                "subtitle":"Settles down negative emotions from the right brain while stimulating the left brain to rebalance alpha asymmetry.",
+                "durationMinutes": 30,
+                "freqHz": 8,
+                "leftEarFreq": 220,
+                "rightEarFreq": 212
+            },
+            {
+                "id": "moodBooster2",
+                "title": "Mood Booster 2 | 42 min | 8Hz",
+                "subtitle":"This session has an alpha front end to reduce anxiety and enhance relaxation.",
+                "durationMinutes": 45,
+                "freqHz": 8,
+                "leftEarFreq": 340,
+                "rightEarFreq": 312
+            },
+            {
+                "id": "subDelta",
+                "title": "Sub-Delta | 24 min | 1Hz",
+                "subtitle":"Mildly dissociating. Calms the hypothalamus. Beneficial for some with fibromyalgia and hypertension.",
+                "durationMinutes": 24,
+                "freqHz": 1,
+                "leftEarFreq": 240,
+                "rightEarFreq": 241
+            },
+            {
+                "id": "extendedAlpha",
+                "title": "Extended Deep Alpha Relaxer | 80 min | 8.4Hz",
+                "subtitle":"Stay relaxed for your dental, massage, physiotherapy, chiropractic and other appointments.",
+                "durationMinutes": 80,
+                "freqHz": 8.4,
+                "leftEarFreq": 240,
+                "rightEarFreq": 248.4
+            },
+            {
+                "id": "delta",
+                "title": "Paradise | 36 min | 6.5Hz",
+                "subtitle":"A gentle slide down to Theta. Extroverts with low anxiety produce high levels of this frequency.",
+                "durationMinutes": 36,
+                "freqHz": 6.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 246.5
+            },
+
+        ]
+    }
+}
+
+function getSessionData(sessionName, sessionDetail) {
+
+    const session = DATA[sessionName];
+    console.log("sessionName:"+sessionName);
+    console.log("sessionDetail:"+sessionDetail);
+
+    console.log("** sessionAll :" + JSON.stringify(session));
+
+    var result = session.programs.filter(obj => {
+        return obj.id === sessionDetail
+     })
+     const sessionObj = result[0];
+
+    return sessionObj;
+}
+
+ </script>
+
+
+          </form>
+          <p class="clear"></p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
+  <div id="OptionsList" class="tabcontent">
+    <h3 id="sessionTitle">{MySelection}</h3>
+    <p id="description">{MyDescription}</p>
+  </div>
+
+
+  
+  <div id="SessionHypnosis" class="tabcontent">
+
+    <div class="btn-group">
+      <button onclick="startSession(
+        getSessionData('SessionHypnosis', 'hypnoInduction')
+        )">Quick Hypnotic induction | 15 min | 6Hz</button>
+      <p>Achieve a fast dissociative state.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionHypnosis', 'hypnoAbility')
+        )">Increase Hypnotic ability | 34 min | 8Hz</button>
+      <p>Get hypnotic states easier and more controlled.</p>
+      <hr>
+ 
+
+    </div>
+  </div>
+
+  
+  <div id="SessionEnergyse" class="tabcontent">
+
+    <div class="btn-group">
+      <button onclick="startSession(
+        getSessionData('SessionEnergyse', 'SMR')
+        )">SMR (Sensory Motor Rythm) | 24 min | 14Hz</button>
+      <p>Used to achieve relaxed attention</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionEnergyse', 'BETA1')
+        )">Beta 1 - Sharpen the mind | 20 min | 19</button>
+      <p>A great way to get going in the morning without caffeine. This session helps reduce ADD and SAD symptoms. May
+        cause anxiety.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionEnergyse', 'BETA2')
+        )">Beta 2 - Sharpen the mind | 20 min | 20-23Hz</button>
+      <p>Like Beta 1, but with a gigher target frequency range. May give a more energizing jor intense feeling.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionEnergyse', 'mentalFlex')
+        )">Mental flexibility | 22 min | Variable</button>
+      <p>To "loosen up" a stuck mind. Can also be used for fibromyalgia.</p>
+      <hr>
+ 
+
+    </div>
+  </div>
+
+  <div id="SessionMeditate" class="tabcontent">
+
+    <div class="btn-group">
+      <button onclick="startSession(
+        getSessionData('SessionMeditate', 'wise')
+        )">"Wise guy" Alpha | 30 min | 10.6Hz</button>
+      <p>It has been shown that people with fast running alpha waves have higher than average IQs.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionMeditate', 'coffee')
+        )">Coffee break Alpha | 15 min | 10Hz</button>
+      <p>Great for a little rest during your coffee or lunch break.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionMeditate', 'alphaRelaxer')
+        )">Alpha Relaxer | 30 min | 12Hz</button>
+      <p>Healthy alpha is 10 Hz. Most disorders have alpha slowing. This session reestablishes the natural alpha rhythm.
+        Good for beginners.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionMeditate', 'schumann')
+        )">Schumann Resonance | 22 min | 7.8Hz</button>
+      <p>For a quick, through afternoon meditation. Calms "hyper/chattery" minds. For those on the go.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionMeditate', 'theta')
+        )">Theta | 36 min | 5.5Hz</button>
+      <p>Use for creative visualization. May also be used for sleep.</p>
+      <hr>
+
+    </div>
+  </div>
+
+  <div id="SessionBooster" class="tabcontent">
+
+    <div class="btn-group">
+      <button onclick="startSession(
+        getSessionData('SessionBooster', 'reading')
+        )">SMR for Reading | 20 min | 13Hz</button>
+      <p>Improve attention and alertness while reading.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionBooster', 'beta')
+        )">SMR/Beta | 24 min | 13.5Hz</button>
+      <p>A gentle and entraining session that helps to focus mental functioning and memory.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionBooster', 'brainBooster')
+        )">Brain Booster | 30 min | 14Hz</button>
+      <p>Use to impove mental functioning and memory, Based on Budzynski's study. Similar to ADD and learning, but with
+        gentler transitions. Useful for seniors and those with ADD.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionBooster', 'addLearning')
+        )">ADD and Learning | 26 min | 19Hz</button>
+      <p>This session has rapid transitions for mental stimulation to help keep the user "engaged" in the session. Used
+        in the ADD study published in the journal of Neurotherapy.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionBooster', 'skill')
+        )">Skill & Sports Development | 24 min | 18Hz</button>
+      <p>Use this session to develop any skill or improve performance. Visualize feeling your best during the first
+        half(alpha). Then visualize your perfect performance during the second half(beta) of the session.</p>
+      <hr>
+
+    </div>
+  </div>
+
+
+  <div id="SessionSleep" class="tabcontent">Æ’
+
+    <div class="btn-group">
+      <button onclick="startSession(
+        getSessionData('SessionSleep', 'schumannSleep')
+        )">Schumann for Sleep | 40 min | 7.8Hz</button>
+      <p>For effective deep meditation and to improve the onset of sleep. Calms "hyper/chattery" minds. Ideal for those
+        with insomnia who have a busy mind and tense body.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionSleep', 'meditateSleep')
+        )">Meditate to Sleep | 45 min | 8-3Hz</button>
+      <p>Meditate, visualize and think soothing thoughts during the first half (8Hz); fall asleep during the second
+        half (3Hz).</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionSleep', 'alphaSleep')
+        )">Alpha/Theta for Sleep | 36 min | 10-6Hz</button>
+      <p>This session can really help to break up distressing thoughts that are interfering with sleep.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionSleep', 'smrSleep')
+        )">SMR for Sleep | 40 min | 14Hz</button>
+      <p>Use to improve sleep for those who have insomnia due to a "racing" mind but relaxed body.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionSleep', 'delta')
+        )">Delta | 45 min | 3.5Hz</button>
+      <p>To aid with falling asleep. Best for those with fibromyalgia.</p>
+      <hr>
+
+    </div>
+  </div>
+
+
+  <div id="SessionBetter" class="tabcontent">
+
+    <div class="btn-group">
+      <button onclick="startSession(
+        getSessionData('SessionBetter', 'moodBooster')
+        )">Mood Booster 1 | 30 min | 8Hz</button>
+      <p>Settles down negative emotions from the right brain while stimulating the left brain to rebalance alpha
+        asymmetry.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionBetter', 'moodBooster2')
+        )">Mood Booster 2 | 42 min | 8Hz</button>
+      <p>This session has an alpha front end to reduce anxiety and enhance relaxation.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionBetter', 'subDelta')
+        )">Sub-Delta | 24 min | 1Hz</button>
+      <p>Mildly dissociating. Calms the hypothalamus. Beneficial for some with fibromyalgia and hypertension.</p>
+      <hr>
+
+      <button onclick="startSession(
+        getSessionData('SessionBetter', 'extendedAlpha')
+        )">Extended Deep Alpha Relaxer | 80 min | 8.4Hz</button>
+      <p>Stay relaxed for your dental, massage, physiotherapy, chiropractic and other appointments.</p>
+      <hr>
+
+
+      <button onclick="startSession(
+        getSessionData('SessionBetter', 'delta')
+        )">Paradise | 36 min | 6.5Hz</button>
+      <p>A gentle slide down to Theta. Extroverts with low anxiety produce high levels of this frequency.</p>
+      <hr>
+
+    </div>
+
+  </div>
+
+  
+  <div id="experimentScreen" class="experimentStopScreen">
+    <div class="btn-group">
+      <p>Psychotroniks experimentations.</p>
+      <br>
+      <p>Please use earphones... Binaural beats running.</p>
+
+      <button onclick="stopExperiment()">Stop Experiment</button>
+      <audio id="audiotag1" src="medita.mp3" preload="auto"></audio>
+    </div>
+    <canvas id="canvas" class="canvas"></canvas>
+
+    
+    <script>
+
+      var switchExperimentStatus = false;
+      var switchBlinkStatus = false;
+      var switchMusicStatus = false;
+      var expDuration = 10;
+
+      var obj = { name: "John", age: 30, city: "New York" };
+
+      // var json = require('./sessions.json')
+      var json = DATA;
+
+      var slide = document.getElementById('slide'),
+        sliderDiv = document.getElementById('sliderAmount');
+
+      slide.onchange = function () {
+        var minuteString = " minute"
+        if (this.value > 1) {
+          minuteString = minuteString + "s"
+        }
+
+        expDuration = this.value;
+        sliderDiv.innerHTML = expDuration + minuteString;
+
+
+      }
+
+
+      function openCity(evt, cityName) {
+        var tablinks;
+
+        hideAll();
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+      function openSelection(sessionMode) {
+        hideAll();
+
+        var dict = {
+          "Hypnosis": {
+            "title": "Hypnosis",
+            "description": "Hypnosis to reprogram your mind for peak performance"
+          },
+          "Energyse": {
+            "title": "Energyse",
+            "description": "Sessions to wake you up and stimulate you"
+          },
+          "Meditate": {
+            "title": "Meditate",
+            "description": "Sessions to relax and calm you"
+          },
+          "Booster": {
+            "title": "Brain Booster",
+            "description": "Sessions to help you focus and concentrate"
+          },
+          "Sleep": {
+            "title": "Sleep",
+            "description": "Sessions to help you relax and fall asleep"
+          },
+          "Better": {
+            "title": "Feel Better",
+            "description": "Sessions to help your mood and reduce stress"
+          },
+        };
+
+        document.getElementById('OptionsList').style.display = "block";
+
+        var innerDicto = dict[sessionMode]
+
+        sessionTitle.innerText = innerDicto["title"];
+        description.innerText = innerDicto["description"]
+
+        console.log(sessionMode);
+
+        var sessionName = "Session" + sessionMode
+
+        console.log(sessionName);
+
+
+        document.getElementById(sessionName).style.display = "block";
+      }
+
+
+
+      function startSession(sessionObj) {
+        hideAll();
+
+        this.expDuration = sessionObj.durationMinutes
+
+        console.log("** result:" + JSON.stringify(sessionObj))
+        console.log("** this.expDuration:" + this.expDuration)
+
+        const leftFreqTF = document.getElementById('freq');
+        const rightFreqTF = document.getElementById('freq2');
+        const freqBlink = document.getElementById('freqBlink');
+
+        leftFreqTF.value = sessionObj.leftEarFreq;
+        rightFreqTF.value = sessionObj.rightEarFreq;
+        freqBlink.value = sessionObj.freqHz;
+
+
+        console.log("left:"+leftFreqTF.value)
+        console.log("right:"+rightFreqTF.value)
+
+
+        document.getElementById('SessionDetail').style.display = "block";
+
+      }
+
+      function hideAll() {
+        document.getElementById('experimentScreen').style.display = "none";
+        document.getElementById('SessionDetail').style.display = "none";
+
+        var i, tabcontent;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+      }
+
+
+
+      function handleSwitchLightBlink(cb) {
+        console.log("handleSwitchLightBlink:" + cb.checked);
+        switchBlinkStatus = !switchBlinkStatus
+        tellMeVals();
+      }
+
+      function handleSwitchMusic(cb) {
+        console.log("handleSwitchMusic:" + cb.checked);
+        switchMusicStatus = !switchMusicStatus
+        tellMeVals();
+      }
+
+      function tellMeVals() {
+        console.log("switchExperimentStatus:" + switchExperimentStatus);
+        console.log("switchBlinkStatus:" + switchBlinkStatus);
+        console.log("handswitchMusicStatusleSwitchExperiment:" + switchMusicStatus);
+
+      }
+
+      function startExperiment() {
+        switchExperimentStatus = !switchExperimentStatus
+        tellMeVals();
+        hideAll();
+        document.getElementById('experimentScreen').style.display = "block";
+
+        //start freq tone
+        start();
+
+        //bkgnd music
+        if (switchMusicStatus) {
+
+          play_single_sound();
+        }
+        if (switchBlinkStatus) {
+          
+          const freqBlink = document.getElementById('freqBlink');
+
+            //TODO, LIMIT TO WORKABLE BLINK FREQ!!
+            console.log("** this.freqBlink.value:" + freqBlink.value)
+
+          startBlink(freqBlink.value);
+        }
+
+
+        //log the time!
+        var millisecondsExp = this.expDuration * 60000;
+        console.log("tu millisecondsExp:" + millisecondsExp);
+
+        setTimeout(
+          function () {
+            stopExperiment()
+          }, millisecondsExp);
+
+      }
+
+      function stopExperiment() {
+        console.log("chupa")
+        switchExperimentStatus = false
+
+        document.getElementById('experimentScreen').style.display = "none";
+        document.getElementById('Experiment').style.display = "block";
+
+        //stop freq tone
+        stop();
+
+        //stop bgnd music
+        stop_sound()
+
+        stopBlink();
+      }
+
+      document.getElementById("defaultOpen").click();
+    </script>
+
+</div></body>
+
+</html>

@@ -1,0 +1,45 @@
+//this is a comment this is for Experience level! MERGE, AND CALL SCRIPTS FROM SEPARATE JSON!
+[
+    {
+        "defaultSessionName": "welcome master",
+        "guid": "default",
+        "background": "bcksong.mp3",
+        "steps": [
+            {
+                "stepName": "intro",
+                "text": "Hello programmer, this is the mainframe, start by connecting to the source",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            {
+                "stepName": "induction",
+                "text": "just relax and let the information create crystals inside and outside of you",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            {
+                "stepName": "deepening",
+                "text": "Can you feel it?, this is permanent and lasting",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            {
+                "stepName": "subject",
+                "text": "You mako, create happiness, shine, abundance, health, power oh yeah",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            },
+            {
+                "stepName": "ending",
+                "text": "remember your training, now get back to it...",
+                "frequency": 34,
+                "leftEarFreq": 220,
+                "rightEarFreq": 220
+            }
+        ]
+    }
+]

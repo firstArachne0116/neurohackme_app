@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "707370587885",
+    "firebase_url": "https://neurohack-14df9.firebaseio.com",
+    "project_id": "neurohack-14df9",
+    "storage_bucket": "neurohack-14df9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707370587885:android:c4144315a40d236739dee4",
+        "android_client_info": {
+          "package_name": "com.psychotronics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707370587885-ndbb3mdedgqs57sc6ah63ja4t0gaeh4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psychotronics",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "707370587885-n4qi3pncsmq4fffbdlamrqnmpjde7vln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psychotronics",
+            "certificate_hash": "06696c2c20f064de3bf5e175b6c8f4de70aa7758"
+          }
+        },
+        {
+          "client_id": "707370587885-8fgr6uhnibi9cqicnn0178dq5qaqhvr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw8WkIRihEraBoCq0S3Hdkk8fvmOlu1mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707370587885-8fgr6uhnibi9cqicnn0178dq5qaqhvr3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "707370587885-dvjboo6dd1t6r0b3v7j4mdat38tet7v6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.hyper.psychotech"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

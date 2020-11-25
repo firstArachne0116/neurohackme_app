@@ -1,0 +1,1079 @@
+[
+    {
+        "catTitle": "Self Hypnosis",
+        "catDescription": "Hypnosis to reprogram your mind for peak performance",
+        "avatar_key": "Experiment",
+        "programs": [
+            {
+                "id": "accelerated1",
+                "author": "Tkt",
+                "title": "Accelerated healing",
+                "subtitle": "Achieve a faster healing response.",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 24,
+                "freqHz": 6,
+                "programGuid": "hypnoInduction_101"
+            },
+            {
+                "id": "accelerated2",
+                "author": "Tkt",
+                "title": "Accelerated healing II",
+                "subtitle": "Achieve a faster healing response II",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "alcohol",
+                "author": "Tkt",
+                "title": "Alcohol avoidance",
+                "subtitle": "Avoid abusing alcohol",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "alcohol1",
+                "author": "Tkt",
+                "title": "Alcohol avoidance I",
+                "subtitle": "Avoid abusing alcohol I",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "alcohol2",
+                "author": "Tkt",
+                "title": "Alcohol avoidance II",
+                "subtitle": "Avoid abusing alcohol II",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "alcohol3",
+                "author": "Tkt",
+                "title": "Alcohol avoidance III",
+                "subtitle": "Avoid abusing alcohol III",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "angertemper",
+                "author": "Tkt",
+                "title": "Anger and temper management",
+                "subtitle": "Control your emotions.",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "angina",
+                "author": "Tkt",
+                "title": "Angina, chest pain",
+                "subtitle": "Relief to unexplained chest pain",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "asthma",
+                "author": "Tkt",
+                "title": "Asthma, feel better",
+                "subtitle": "Relief paroxysmal attacks of wheezing or tight chest",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "bedwetting",
+                "author": "Tkt",
+                "title": "Bedwetting, put and end to it",
+                "subtitle": "No more bedwetting",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "blushing",
+                "author": "Tkt",
+                "title": "Blushing, control the skin blood flow",
+                "subtitle": "Dermatology is under your control",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "bodytemp",
+                "author": "Tkt",
+                "title": "Body temperature control",
+                "subtitle": "Learn to control your body temperature",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "bruxism",
+                "author": "Tkt",
+                "title": "Bruxism, grinding teeth",
+                "subtitle": "stop grinding your teeth",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "childbirthdis",
+                "author": "Tkt",
+                "title": "Childbirth, dissasociation",
+                "subtitle": "manage pain during childbirth",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "childbirthtime",
+                "author": "Tkt",
+                "title": "Childbirth, time distortion",
+                "subtitle": "Manage time and pain during childbirth",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "Circulation",
+                "author": "Tkt",
+                "title": "Circulation control and blood flow",
+                "subtitle": "Regulate the flow of blood on your body",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "concentration",
+                "author": "Tkt",
+                "title": "Concentration",
+                "subtitle": "Improve the power of your mind",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "constipation",
+                "author": "Tkt",
+                "title": "Constipation, irritable bowel syndrome",
+                "subtitle": "Improve gastrointestinal symptoms",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "Creativity",
+                "author": "Tkt",
+                "title": "Creativity, connect and develop the creative",
+                "subtitle": "Find new inspiration and associations",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "Creativity2",
+                "author": "Tkt",
+                "title": "Creativity, connect and develop the creative II",
+                "subtitle": "Find new inspiration and associations",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "Creativity3",
+                "author": "Tkt",
+                "title": "Creativity, connect and develop the creative III",
+                "subtitle": "Find new inspiration and associations",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "depresion1",
+                "author": "Tkt",
+                "title": "Depression",
+                "subtitle": "Learn to look at the positive side",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "depresion2",
+                "author": "Tkt",
+                "title": "Depression II",
+                "subtitle": "Learn to find peace",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "depresion3",
+                "author": "Tkt",
+                "title": "Depression III",
+                "subtitle": "Leave yesterday behind",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "disease",
+                "author": "Tkt",
+                "title": "Disease",
+                "subtitle": "Use your mind to improve your health",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "DrugAddic",
+                "author": "Tkt",
+                "title": "Drug addiction management I",
+                "subtitle": "relieving physical, psychological and spiritual symptoms",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "DrugAddic3",
+                "author": "Tkt",
+                "title": "Drug addiction management III",
+                "subtitle": "relieving physical, psychological and spiritual symptoms",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "Drugs",
+                "author": "Tkt",
+                "title": "Drugs addiction",
+                "subtitle": "manage drug addiction",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "amnesia",
+                "author": "Tkt",
+                "title": "Easing someone from your mind",
+                "subtitle": "Forget people and episodes by choice",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "ENERGY",
+                "author": "Tkt",
+                "title": "Energy, revitalize and refresh",
+                "subtitle": "Reload your energy source",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "ESP",
+                "author": "Tkt",
+                "title": "ESP, Extra Sensorial Perception",
+                "subtitle": "See beyond the senses",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "exam1",
+                "author": "Tkt",
+                "title": "Exam anxiety",
+                "subtitle": "Be relaxed but ready for success on your exam",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "exams",
+                "author": "Tkt",
+                "title": "Performance at exams",
+                "subtitle": "Get the most of you at exams",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "angina2",
+                "author": "Tkt",
+                "title": "Angina, chest pain",
+                "subtitle": "Relief to unexplained chest pain",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "goalaccomplishment",
+                "author": "Tkt",
+                "title": "Goal accomplishment",
+                "subtitle": "Learn how to reach your goals",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "healing",
+                "author": "Tkt",
+                "title": "Healing",
+                "subtitle": "Know how to heal your wounds",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "healingtemple",
+                "author": "Tkt",
+                "title": "Healing temple",
+                "subtitle": "Know where to go to heal your wounds",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "highpressure",
+                "author": "Tkt",
+                "title": "High blood pressure",
+                "subtitle": "Know how to deal with high pressure",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "hypnotherapist",
+                "author": "Tkt",
+                "title": "Hypnotherapist",
+                "subtitle": "Get the most of hypnotherapy",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "Iwould",
+                "author": "Tkt",
+                "title": "I would if I could",
+                "subtitle": "Be able to achieve your goals",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "hearing",
+                "author": "Tkt",
+                "title": "Improving hearing",
+                "subtitle": "Treatment to prevent deafness",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "advisor",
+                "author": "Tkt",
+                "title": "Inner advisor",
+                "subtitle": "Hear to your inner advisor",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "insomnia",
+                "author": "Tkt",
+                "title": "Insomnia",
+                "subtitle": "Deal with sleeping disorders",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "jealousy",
+                "author": "Tkt",
+                "title": "Jealousy",
+                "subtitle": "Stop being jealous",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "library",
+                "author": "Tkt",
+                "title": "Library scene",
+                "subtitle": "Library scene model test",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "memory",
+                "author": "Tkt",
+                "title": "Memory : recall at will",
+                "subtitle": "Get the most of your memory",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "migraine",
+                "author": "Tkt",
+                "title": "Migraine headaches",
+                "subtitle": "Cure to constant headaches",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "nails",
+                "author": "Tkt",
+                "title": "Nail biting",
+                "subtitle": "Avoid continuous biting your nails",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "paincontrol",
+                "author": "Tkt",
+                "title": "Pain control",
+                "subtitle": "Know how control pain",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "painoranxiety",
+                "author": "Tkt",
+                "title": "Manage the pain and anxiety",
+                "subtitle": "Relief to unexplained chest pain",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "pre-operative",
+                "author": "Tkt",
+                "title": "Pre-operative",
+                "subtitle": "How to behave previous to an operation",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "3step",
+                "author": "Tkt",
+                "title": "Problem - solving 3 step",
+                "subtitle": "Problem with a solution in three steps",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "procastinating",
+                "author": "Tkt",
+                "title": "Procrastinating I",
+                "subtitle": "Be more executive in your daily life",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "procastination2",
+                "author": "Tkt",
+                "title": "Procrastination II",
+                "subtitle": "Be more executive in your daily life",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "prosperity1",
+                "author": "Tkt",
+                "title": "Prosperity I",
+                "subtitle": "Apply science to your business",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "prosperity2",
+                "author": "Tkt",
+                "title": "Prosperity II",
+                "subtitle": "Apply science to your business",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "shield",
+                "author": "Tkt",
+                "title": "Protective shield",
+                "subtitle": "Method to generate a protective shield",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "speaking",
+                "author": "Tkt",
+                "title": "Public speaking",
+                "subtitle": "Be a better speaker",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "garden",
+                "author": "Tkt",
+                "title": "Rainbow garden",
+                "subtitle": "Rainbow garden exercise",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "rapetrauma",
+                "author": "Tkt",
+                "title": "Rape trauma",
+                "subtitle": "Deal with trauma for victims of raping",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "reading",
+                "author": "Tkt",
+                "title": "Reading faster",
+                "subtitle": "Improve your speed at reading",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "studyhabits",
+                "author": "Tkt",
+                "title": "Secret of study habits",
+                "subtitle": "Get better study habits",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "selfconfidence",
+                "author": "Tkt",
+                "title": "Self confidence I",
+                "subtitle": "Be fully confident in yourself",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "selfconfidence2",
+                "author": "Tkt",
+                "title": "Self confidence II",
+                "subtitle": "Be fully confident in yourself",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "selfconfidencefear",
+                "author": "Tkt",
+                "title": "Self confidence/fear",
+                "subtitle": "Be confident in yourself and avoid fear",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "male",
+                "author": "Tkt",
+                "title": "Sexual male",
+                "subtitle": "Get the most of your sexual energy",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "smoking",
+                "author": "Tkt",
+                "title": "Smoking addendum",
+                "subtitle": "Quit the unhealthy habit of smoking",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "stopsmoking1",
+                "author": "Tkt",
+                "title": "Stop smoking session I",
+                "subtitle": "Quit the unhealthy habit of smoking",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "stopsmoking2",
+                "author": "Tkt",
+                "title": "Stop smoking session II",
+                "subtitle": "Quit the unhealthy habit of smoking",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "stopsmoking3",
+                "author": "Tkt",
+                "title": "Stop smoking session III",
+                "subtitle": "Quit the unhealthy habit of smoking",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "stopsmoking4",
+                "author": "Tkt",
+                "title": "Stop smoking session IV",
+                "subtitle": "Quit the unhealthy habit of smoking",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "stopsmoking5",
+                "author": "Tkt",
+                "title": "Stop smoking session V",
+                "subtitle": "Quit the unhealthy habit of smoking",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "studyhabits2",
+                "author": "Tkt",
+                "title": "Study habits",
+                "subtitle": "Improve your study habits",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "weightreduction",
+                "author": "Tkt",
+                "title": "Weight reduction",
+                "subtitle": "Get an average weight",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "weightreduction1",
+                "author": "Tkt",
+                "title": "Weight reduction session I",
+                "subtitle": "Get an average weight",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "weightreduction2",
+                "author": "Tkt",
+                "title": "Weight reduction session II",
+                "subtitle": "Get an average weight",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "weightreduction3",
+                "author": "Tkt",
+                "title": "Weight reduction session III",
+                "subtitle": "Get an average weight",
+                "image": "path/to/cdn/image.jpg",
+                "durationMinutes": 34,
+                "freqHz": 8,
+                "programGuid": "hypnoAbility_101"
+            }
+        ]
+    },
+    {
+        "catTitle": "Energyse",
+        "catDescription": "Sessions to wake you up and stimulate you",
+        "avatar_key": "Energize",
+        "programs": [
+            {
+                "id": "SMR",
+                "title": "SMR (Sensory Motor Rythm) | 24 min | 14Hz",
+                "subtitle": "Used to achieve relaxed attention",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 24,
+                "freqHz": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 254,
+                "programGuid": "hypnoAbility_101"
+            },
+            {
+                "id": "BETA1",
+                "title": "Beta 1 - Sharpen the mind | 20 min | 19Hz",
+                "subtitle": "A great way to get going in the morning without caffeine. This session helps reduce ADD and SAD symptoms. May cause anxiety.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 20,
+                "freqHz": 19,
+                "leftEarFreq": 240,
+                "rightEarFreq": 211
+            },
+            {
+                "id": "BETA2",
+                "title": "Beta 2 - Sharpen the mind | 20 min | 23H",
+                "subtitle": "Like Beta 1, but with a gigher target frequency range. May give a more energizing jor intense feeling.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 20,
+                "freqHz": 23,
+                "leftEarFreq": 240,
+                "rightEarFreq": 217
+            },
+            {
+                "id": "mentalFlex",
+                "title": "Mental flexibility | 22 min | Variable",
+                "subtitle": "To 'loosen up' a stuck mind. Can also be used for fibromyalgia.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 22,
+                "freqHz": 23,
+                "leftEarFreq": 240,
+                "rightEarFreq": 217
+            }
+        ]
+    },
+    {
+        "catTitle": "Meditate",
+        "catDescription": "Sessions to relax and calm you",
+        "avatar_key": "Meditate",
+        "programs": [
+            {
+                "id": "wise",
+                "title": "'Wise guy' Alpha | 30 min | 10.6Hz",
+                "subtitle": "It has been shown that people with fast running alpha waves have higher than average IQs.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 30,
+                "freqHz": 10.6,
+                "leftEarFreq": 240,
+                "rightEarFreq": 229.4
+            },
+            {
+                "id": "coffee",
+                "title": "Coffee break Alpha | 15 min | 10Hz",
+                "subtitle": "UGreat for a little rest during your coffee or lunch break.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 15,
+                "freqHz": 10,
+                "leftEarFreq": 240,
+                "rightEarFreq": 230
+            },
+            {
+                "id": "alphaRelaxer",
+                "title": "Alpha Relaxer | 30 min | 12Hz",
+                "subtitle": "Healthy alpha is 10 Hz. Most disorders have alpha slowing. This session reestablishes the natural alpha rhythm. Good for beginners.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 30,
+                "freqHz": 12,
+                "leftEarFreq": 240,
+                "rightEarFreq": 228
+            },
+            {
+                "id": "schumann",
+                "title": "Schumann Resonance | 22 min | 7.8Hz",
+                "subtitle": "For a quick, through afternoon meditation. Calms 'hyper/chattery' minds. For those on the go.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 22,
+                "freqHz": 7.8,
+                "leftEarFreq": 240,
+                "rightEarFreq": 232.2
+            },
+            {
+                "id": "theta",
+                "title": "Theta | 36 min | 5.5Hz",
+                "subtitle": "Use for creative visualization. May also be used for sleep.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 36,
+                "freqHz": 5.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 234.5
+            }
+        ]
+    },
+    {
+        "catTitle": "Brain Booster",
+        "catDescription": "Sessions to help you focus and concentrate",
+        "avatar_key": "Booster",
+        "programs": [
+            {
+                "id": "reading",
+                "title": "SMR for Reading | 20 min | 13Hz",
+                "subtitle": "Improve attention and alertness while reading.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 20,
+                "freqHz": 13,
+                "leftEarFreq": 220,
+                "rightEarFreq": 233
+            },
+            {
+                "id": "beta",
+                "title": "SMR/Beta | 24 min | 13.5Hz",
+                "subtitle": "A gentle and entraining session that helps to focus mental functioning and memory.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 15,
+                "freqHz": 10,
+                "leftEarFreq": 240,
+                "rightEarFreq": 230
+            },
+            {
+                "id": "brainBooster",
+                "title": "Brain Booster | 30 min | 14Hz",
+                "subtitle": "Use to impove mental functioning and memory, Based on Budzynski's study. Similar to ADD and learning, but with gentler transitions. Useful for seniors and those with ADD.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 30,
+                "freqHz": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 226
+            },
+            {
+                "id": "addLearning",
+                "title": "ADD and Learning | 26 min | 19Hz",
+                "subtitle": "This session has rapid transitions for mental stimulation to help keep the user 'engaged' in the session. Used in the ADD study published in the journal of Neurotherapy.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 26,
+                "freqHz": 19,
+                "leftEarFreq": 240,
+                "rightEarFreq": 221
+            },
+            {
+                "id": "skill",
+                "title": "Skill & Sports Development | 24 min | 18Hz",
+                "subtitle": "Use this session to develop any skill or improve performance. Visualize feeling your best during the first half(alpha). Then visualize your perfect performance during the second half(beta) of the session. ",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 24,
+                "freqHz": 18,
+                "leftEarFreq": 240,
+                "rightEarFreq": 222
+            }
+        ]
+    },
+    {
+        "catTitle": "Sleep",
+        "catDescription": "Sessions to help you relax and fall asleep",
+        "avatar_key": "Sleep",
+        "programs": [
+            {
+                "id": "schumannSleep",
+                "title": "Schumann for Sleep | 40 min | 7.8Hz",
+                "subtitle": "For effective deep meditation and to improve the onset of sleep. Calms 'hyper/chattery' minds. Ideal for those with insomnia who have a busy mind and tense body.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 40,
+                "freqHz": 7.8,
+                "leftEarFreq": 220,
+                "rightEarFreq": 212.2
+            },
+            {
+                "id": "meditateSleep",
+                "title": "Meditate to Sleep | 45 min | 4Hz",
+                "subtitle": "A gentle and entraining session that helps to focus mental functioning and memory.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 45,
+                "freqHz": 4,
+                "leftEarFreq": 240,
+                "rightEarFreq": 236
+            },
+            {
+                "id": "alphaSleep",
+                "title": "Alpha/Theta for Sleep | 36 min | 10-6Hz",
+                "subtitle": "This session can really help to break up distressing thoughts that are interfering with sleep.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 36,
+                "freqHz": 8,
+                "leftEarFreq": 240,
+                "rightEarFreq": 232
+            },
+            {
+                "id": "smrSleep",
+                "title": "SMR for Sleep | 40 min | 14Hz",
+                "subtitle": "This session has rapid transitions for mental stimulation to help keep the user 'engaged' in the session. Used in the ADD study published in the journal of Neurotherapy.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 40,
+                "freqHz": 14,
+                "leftEarFreq": 240,
+                "rightEarFreq": 226
+            },
+            {
+                "id": "delta",
+                "title": ">Delta | 45 min | 3.5Hz",
+                "subtitle": "To aid with falling asleep. Best for those with fibromyalgia.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 45,
+                "freqHz": 3.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 236.5
+            }
+        ]
+    },
+    {
+        "catTitle": "Feel Better",
+        "catDescription": "Sessions to help your mood and reduce stress",
+        "avatar_key": "Better",
+        "programs": [
+            {
+                "id": "moodBooster",
+                "title": "Mood Booster 1 | 30 min | 8Hz",
+                "subtitle": "Settles down negative emotions from the right brain while stimulating the left brain to rebalance alpha asymmetry.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 30,
+                "freqHz": 8,
+                "leftEarFreq": 220,
+                "rightEarFreq": 212
+            },
+            {
+                "id": "moodBooster2",
+                "title": "Mood Booster 2 | 42 min | 8Hz",
+                "subtitle": "This session has an alpha front end to reduce anxiety and enhance relaxation.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 45,
+                "freqHz": 8,
+                "leftEarFreq": 340,
+                "rightEarFreq": 312
+            },
+            {
+                "id": "subDelta",
+                "title": "Sub-Delta | 24 min | 1Hz",
+                "subtitle": "Mildly dissociating. Calms the hypothalamus. Beneficial for some with fibromyalgia and hypertension.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 24,
+                "freqHz": 1,
+                "leftEarFreq": 240,
+                "rightEarFreq": 241
+            },
+            {
+                "id": "extendedAlpha",
+                "title": "Extended Deep Alpha Relaxer | 80 min | 8.4Hz",
+                "subtitle": "Stay relaxed for your dental, massage, physiotherapy, chiropractic and other appointments.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 80,
+                "freqHz": 8.4,
+                "leftEarFreq": 240,
+                "rightEarFreq": 248.4
+            },
+            {
+                "id": "delta",
+                "title": "Paradise | 36 min | 6.5Hz",
+                "subtitle": "A gentle slide down to Theta. Extroverts with low anxiety produce high levels of this frequency.",
+                "iconName": "surround-sound",
+                "iconType": "material-community",
+                "durationMinutes": 36,
+                "freqHz": 6.5,
+                "leftEarFreq": 240,
+                "rightEarFreq": 246.5
+            }
+        ]
+    }
+]

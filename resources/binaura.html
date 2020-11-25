@@ -1,0 +1,105 @@
+<!-- FROM http://onlinetonegenerator.com/binauralbeats.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>PSYCHOTRONIK</title>
+
+    <meta name="viewport" content="initial-scale=1">
+    <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        p    {color: red;}
+        </style>
+
+</head>
+
+<body>
+
+    <div id="canvasContent">
+
+        <p class="tagline"><strong>PSYCHOTRONIK EXPERIMENTATIONS</strong></p>
+
+        <canvas id="canvas" width=1600 height=700></canvas>
+
+
+        <p class="tagline"><strong>Light blink generator</strong></p>
+
+        <span id="freqBlinklabel">Frequency Blink<spanp>
+        <input type="text" id="freqBlink" name="freq" value="7" class="input--frequency" />
+        <span>(Hz)</span>
+
+        <br /> <br />
+
+        <button type="button" onclick="startBlink(10);">Start blink</button>
+        <button type="button" onclick="stopBlink();" class="stop blinkButton">Stop blink</button>
+
+
+        <script src="js/blinker.js"></script>
+
+    </div>
+
+
+    <div id="mainContent">
+        <hr>
+        <p class="tagline"><strong>Binaural Beat Generator</strong></p>
+
+        <div class="generator-ad-wrapper">
+            <div id="generator" class="generator">
+                <form>
+                    <div class="binaural-freq-wrapper">
+                        <span>Left Ear Frequency</span>
+                        <input type="text" id="freq2" name="freq2" value="200" class="input--frequency" />
+                        <span id="freq2label"> (Hz)</span>
+                        <br /> <br />
+                    </div>
+                    <div class="binaural-freq-wrapper">
+                        <span>Right Ear Frequency</span>
+                        <input type="text" id="freq" name="freq" value="207" class="input--frequency" />
+                        <span>(Hz)</span>
+                        <br /> <br />
+                    </div>
+                    <div class="generator-buttons">
+                        <button type="button" onclick="start()" class="beginTuning generatorButton">Play</button>
+                        <button type="button" onclick="stop()" class="stopTuning generatorButton">Stop</button>
+                    </div>
+                    <script src="js/binaural.js"></script>
+                </form>
+                <p class="clear"></p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div id="musicContent">
+
+        <hr>
+        <p class="tagline"><strong>Meditation music</strong></p>
+
+        <audio id="audiotag1" src="medita.mp3" preload="auto"></audio>
+
+        <button type="button" onclick="play_single_sound();">Play music</button>
+        <button type="button" onclick="pause_sound();">Pause music</button>
+        <button type="button" onclick="stop_sound();">Stop music</button>
+
+        <script src="js/music.js"></script>
+    </div>
+
+    <hr>
+    <p class="tagline"><strong>By HyperLabs, T3kn4rk1st 2020</strong></p>
+
+
+
+
+</body>
+
+<!-- <script src="js/blinker.js"></script> -->
+
+
+</html>

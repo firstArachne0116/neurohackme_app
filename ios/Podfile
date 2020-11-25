@@ -1,0 +1,48 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'psychotronics' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'RNShare', :path => '../node_modules/react-native-share'
+  # pod 'RNFBMessaging', :path =>cd '../node_modules/@react-native-firebase/messaging'
+
+  pod 'appcenter-core', :path => '../node_modules/appcenter/ios'
+
+  pod 'appcenter-analytics', :path => '../node_modules/appcenter-analytics/ios'
+
+  pod 'appcenter-crashes', :path => '../node_modules/appcenter-crashes/ios'
+
+  target 'psychotronicsTests' do
+    inherit! :complete
+    # Pods for testing
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn', '~> 5.0.2' 
+  # pod 'TwitterKit', '~> 3.3.0' 
+  # pod 'react-native-notifications', :podspec => '../node_modules/react-native-notifications/react-native-notifications.podspec'
+  
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  post_install do |installer|
+  end
+end
+
+target 'psychotronics-tvOS' do
+  # Pods for psychotronics-tvOS
+
+  target 'psychotronics-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #ff0000;
+
+        }
+
+        #body_contentwrapper {
+            background: #00ff00;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+        }
+
+        #canvas {
+            width: 100%;
+            height: 100%;
+            background-color: #2196F3;
+        }
+    </style>
+</head>
+
+<body style="background-color:black;">
+
+    <div id="body_contentwrapper">
+
+
+        <canvas id="canvas" class="canvas"></canvas>
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+<script>var contextClass = (window.AudioContext ||
+        window.webkitAudioContext ||
+        window.mozAudioContext ||
+        window.oAudioContext ||
+        window.msAudioContext);
+
+    if (contextClass) {
+        // Web Audio API is available.
+        var context = new contextClass();
+    }
+
+    var oscOn = function (freq1, freq2) {
+
+        merger = context.createChannelMerger(2);
+
+        oscillator1 = context.createOscillator();
+        oscillator1.type = 0;
+        oscillator1.frequency.value = freq1;
+        gainNode = context.createGain ? context.createGain() : context.createGainNode();
+        oscillator1.connect(gainNode, 0, 0);
+        // gainNode.connect(context.destination,0,0);
+        gainNode.gain.value = .1;
+        oscillator1.start ? oscillator1.start(0) : oscillator1.noteOn(0)
+
+        gainNode.connect(merger, 0, 1);
+
+        oscillator2 = context.createOscillator();
+        oscillator2.type = 0;
+        oscillator2.frequency.value = freq2;
+        gainNode = context.createGain ? context.createGain() : context.createGainNode();
+        oscillator2.connect(gainNode);
+        // gainNode.connect(context.destination,0,1);
+        gainNode.connect(merger, 0, 0);
+
+
+        gainNode.gain.value = .1;
+        oscillator2.start ? oscillator2.start(0) : oscillator2.noteOn(0)
+
+        merger.connect(context.destination);
+
+
+    };
+
+    function start() {
+        if (typeof oscillator1 != 'undefined') oscillator1.disconnect();
+        if (typeof oscillator2 != 'undefined') oscillator2.disconnect();
+
+        console.log("start binaural freq:" + document.getElementById("freq").value);
+        console.log("start binaural freq2:" + document.getElementById("freq2").value);
+
+        oscOn(
+            parseFloat(document.getElementById("freq").value),
+            parseFloat(document.getElementById("freq2").value)
+        );
+    }
+
+    function startWithVars(leftEarFreq, rightEarFreq) {
+        if (typeof oscillator1 != 'undefined') oscillator1.disconnect();
+        if (typeof oscillator2 != 'undefined') oscillator2.disconnect();
+
+        console.log("start binaural freq:" + leftEarFreq);
+        console.log("start binaural freq2:" + rightEarFreq);
+
+        oscOn(
+            leftEarFreq,
+            leftEarFreq
+        );
+    }
+
+    function stop() {
+        oscillator1.disconnect();
+        oscillator2.disconnect();
+        console.log("stop binaural tone")
+
+    }</script>
+<script>var startTime;
+    var interval;
+    var index = 0;
+    var colors = ['black', 'white'];
+    var id = null;
+
+    function animate(time) {
+        id = requestAnimationFrame(animate);
+
+        if (!startTime) { startTime = time; }
+        var elapsed = time - startTime;
+        if (elapsed > interval) {
+            startTime = time;
+            canvas.style.backgroundColor = colors[index];
+            if (++index > colors.length) { index = 0; }
+        }
+    }
+
+    function startBlink() {
+        console.log("startBlink")
+        interval = (1000 / parseFloat(document.getElementById("freqBlink").value)) / 2
+
+        cancelAnimationFrame(id)
+
+        requestAnimationFrame(animate);
+    }
+
+    function startBlinkWithVal(lightFreq) {
+        console.log("startBlink")
+        interval = (1000 / lightFreq) / 2
+
+        cancelAnimationFrame(id)
+
+        requestAnimationFrame(animate);
+    }
+
+    function stopBlink() {
+        cancelAnimationFrame(id)
+        canvas.style.backgroundColor = '#0080ff'
+    }
+</script>
+
+
+<script>
+
+    var operSys;
+    var leftEarFreq;
+    var rightEarFreq;
+    var switchBlink;
+
+
+    function getMobileOperatingSystem() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        // Windows Phone must come first because its UA also contains "Android"
+        if (/windows phone/i.test(userAgent)) {
+            // alert("windows");
+            operSys = "windows"
+        }
+
+        if (/android/i.test(userAgent)) {
+            // alert("android");
+            operSys = "android"
+
+        }
+
+        // iOS detection from: http://stackoverflow.com/a/9039885/177710
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            // alert("iPhone");
+            operSys = "iPhone"
+
+        }
+
+    }
+    getMobileOperatingSystem()
+
+
+    // window.addEventListener("message", function (event) {
+
+    //     var obj = JSON.parse(event.data);
+
+    //     leftEarFreq = obj.leftEarFreq;
+    //     rightEarFreq = obj.rightEarFreq;
+    //     switchBlink = obj.switchBlink;
+
+    //     // alert("leftEarFreq:"+leftEarFreq+"\nrightEarFreq:"+rightEarFreq+"\nswitchBlink:"+switchBlink )
+
+    //     // alert(event.data);
+
+    //     alert ("Never use while driving or operating machinery.")
+
+    //     // alert("OS:" +  operSys + "\n msg:" +event.data);
+
+    //     // getMobileOperatingSystem()
+
+    //     startWithVars(leftEarFreq, rightEarFreq);
+
+    // });
+
+    window.addEventListener("message", function (event) {
+        eventoEscucha(event)
+    });
+
+    document.addEventListener("message", function (event) {
+        eventoEscucha(event)
+    });
+
+    function eventoEscucha(event) {
+        var obj = JSON.parse(event.data);
+
+        leftEarFreq = obj.leftEarFreq;
+        rightEarFreq = obj.rightEarFreq;
+        switchBlink = obj.switchBlink;
+        lightFreq = obj.lightFreq;
+
+
+        if(switchBlink == true){
+            startBlinkWithVal(lightFreq)
+
+        }
+
+        startWithVars(leftEarFreq, rightEarFreq);
+    };
+
+    function GetURLParameter(sParam) {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) {
+                return sParameterName[1];
+            }
+        }
+    }
+
+    var leftEar = GetURLParameter('leftEar');
+    var rightEar = GetURLParameter('rightEar');
+    var lightBlink = GetURLParameter('lightBlink');
+    var lightFreq = GetURLParameter('lightFreq');
+
+
+
+    console.log("mad bro")
+    console.log("left ear:" + leftEar)
+    console.log("rightEar ear:" + rightEar)
+    console.log("lightBlink:" + lightBlink)
+    console.log("lightFreq:" + lightFreq)
+
+
+    function startWithVarsInternal() {
+        console.log("ajua")
+        startWithVars(leftEar, rightEar);
+        // start();
+    }
+
+    // startWithVarsInternal()
+
+
+
+    if (lightBlink == 'true') {
+        startBlinkWithVal(lightFreq)
+
+    }
+
+</script>
+
+</html>

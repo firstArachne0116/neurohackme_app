@@ -1,0 +1,38 @@
+[
+    {
+        "catTitle": "Self Hypnosis",
+        "catDescription": "Hypnosis to reprogram your mind for peak performance",
+        "catImage": "",
+        "catGuid": "selfHypnosis"
+    },
+    {
+        "catTitle": "Energyse",
+        "catDescription": "Sessions to wake you up and stimulate you",
+        "catImage": "",
+        "catGuid": "Energyse"
+    },
+    {
+        "catTitle": "Meditate",
+        "catDescription": "Sessions to relax and calm you",
+        "catImage": "Meditate",
+        "catGuid": "Meditate"
+    },
+    {
+        "catTitle": "Brain Booster",
+        "catDescription": "Sessions to help you focus and concentrate",
+        "catImage": "Booster",
+        "catGuid": "Booster"
+    },
+    {
+        "catTitle": "Sleep",
+        "catDescription": "Sessions to help you relax and fall asleep",
+        "catImage": "Sleep",
+        "catGuid": "sleep"
+    },
+    {
+        "catTitle": "Feel Better",
+        "catDescription": "Sessions to help your mood and reduce stress",
+        "catImage": "Better",
+        "catGuid": "feelBetter"
+    }
+]
