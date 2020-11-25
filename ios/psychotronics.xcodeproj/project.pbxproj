@@ -38,6 +38,9 @@
 		B014C3630B9FB58CA9D1F72B /* libPods-psychotronics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552166086719D223FE28455E /* libPods-psychotronics.a */; };
 		B1CFBD742CED4684BFC59A42 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75888D83148341288C8947CD /* Ionicons.ttf */; };
 		C2709BE81CF3485180206789 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37070DA8553244B6A4B956D8 /* Foundation.ttf */; };
+		E8210DE0256F0642008B9803 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0487307824D2E4AE008FA19A /* GoogleService-Info.plist */; };
+		E8210DE1256F0642008B9803 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0487307824D2E4AE008FA19A /* GoogleService-Info.plist */; };
+		E8210DE2256F0643008B9803 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0487307824D2E4AE008FA19A /* GoogleService-Info.plist */; };
 		E8739A60256F00EC008A306B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8739A5F256F00EC008A306B /* File.swift */; };
 		EA48BA0298E84F8A8EEA212A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3A8167807403A929F9319 /* FontAwesome.ttf */; };
 		F30BF5CF8FDF494D8CA5CF2E /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EEF19CEF75649029C373AFB /* FontAwesome5_Solid.ttf */; };
@@ -68,7 +71,7 @@
 		00E356F21AD99517003FC87E /* psychotronicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = psychotronicsTests.m; sourceTree = "<group>"; };
 		02D2F7697F8143B18789866A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		04016E1125668E7800375B66 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "../AppCenter-Config.plist"; sourceTree = "<group>"; };
-		0487307824D2E4AE008FA19A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0487307824D2E4AE008FA19A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		11D9A49F0073479786633E12 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* NeuroHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = psychotronics/AppDelegate.h; sourceTree = "<group>"; };
@@ -170,7 +173,6 @@
 		13B07FAE1A68108700A75B9A /* psychotronics */ = {
 			isa = PBXGroup;
 			children = (
-				0487307824D2E4AE008FA19A /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -248,6 +250,7 @@
 			children = (
 				E8739A5F256F00EC008A306B /* File.swift */,
 				04016E1125668E7800375B66 /* AppCenter-Config.plist */,
+				0487307824D2E4AE008FA19A /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* psychotronics */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* psychotronicsTests */,
@@ -411,6 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8210DE0256F0642008B9803 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				E8210DE1256F0642008B9803 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +461,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8210DE2256F0643008B9803 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
